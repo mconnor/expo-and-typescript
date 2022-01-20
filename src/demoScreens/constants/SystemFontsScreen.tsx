@@ -1,11 +1,11 @@
-import Constants from "expo-constants";
-import React from "react";
-import { ScrollView, Text } from "react-native";
+import Constants from 'expo-constants'
+import React from 'react'
+import { ScrollView, Text } from 'react-native'
 
 export const SystemFontsScreen = () => (
-  <ScrollView>
-    {Constants.systemFonts.map((systemFont, index) => (
-      <Text key={index}>{systemFont}</Text>
-    ))}
-  </ScrollView>
-);
+    <ScrollView>
+        {Constants.systemFonts.map((systemFont, index) => (
+            <Text key={index}>{systemFont}</Text>
+        ))}
+    </ScrollView>
+)
