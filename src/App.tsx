@@ -25,7 +25,7 @@ import { SystemFontsScreen } from './demoScreens/constants/SystemFontsScreen'
 
 const Stack = createStackNavigator()
 
-export const App = () => {
+export default function App() {
     return (
         <NavigationContainer>
             <Stack.Navigator initialRouteName="Home">
