@@ -1,5 +1,5 @@
 import { BarCodeScanner, PermissionStatus } from 'expo-barcode-scanner'
-import React, { ReactNode } from 'react'
+import { Component, ReactNode } from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 
 interface Props {}
@@ -12,7 +12,7 @@ interface State {
 // export function FBarCodeScannerScreen(Props) {
 
 // }
-export class BarCodeScannerScreen extends React.Component<Props, State> {
+export class BarCodeScannerScreen extends Component<Props, State> {
     constructor(props: Props) {
         super(props)
 

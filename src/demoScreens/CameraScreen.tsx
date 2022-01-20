@@ -1,6 +1,6 @@
 import { Camera, PermissionStatus } from 'expo-camera'
 import { CameraType } from 'expo-camera/build/Camera.types'
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Text, TouchableOpacity, View } from 'react-native'
 
 export const CameraScreen = () => {

@@ -1,6 +1,6 @@
 import { StackNavigationProp } from '@react-navigation/stack'
 import Constants from 'expo-constants'
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Button, Text, View } from 'react-native'
 
 type ConstantsStackParametersList = {

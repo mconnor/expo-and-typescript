@@ -1,5 +1,5 @@
 import { StackNavigationProp } from '@react-navigation/stack'
-import React, { Component } from 'react'
+import { Component } from 'react'
 import { Button, ScrollView } from 'react-native'
 
 type HomeStackParametersList = {

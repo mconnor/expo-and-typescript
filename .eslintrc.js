@@ -10,6 +10,7 @@ module.exports = {
     },
     settings: {
         react: {
+            createClass: 'createReactClass',
             version: 'detect'
         }
     },

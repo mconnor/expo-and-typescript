@@ -1,5 +1,5 @@
 import { Asset } from 'expo-asset'
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Image, Text, View } from 'react-native'
 
 export const AssetScreen = () => {

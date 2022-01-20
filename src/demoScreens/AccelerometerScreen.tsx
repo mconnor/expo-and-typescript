@@ -1,6 +1,6 @@
 import { Subscription } from 'expo-modules-core'
 import { Accelerometer, ThreeAxisMeasurement } from 'expo-sensors'
-import React, { Component } from 'react'
+import { Component } from 'react'
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 
 interface Props {}

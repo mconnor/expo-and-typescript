@@ -1,6 +1,6 @@
 import { FontAwesome } from '@expo/vector-icons'
 import * as Facebook from 'expo-facebook'
-import React, { Component } from 'react'
+import { Component } from 'react'
 import { Alert, Text, TouchableOpacity, View } from 'react-native'
 
 export class FacebookScreen extends Component {

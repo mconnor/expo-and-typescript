@@ -1,5 +1,5 @@
 import { Audio } from 'expo-av'
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Linking, Text, View } from 'react-native'
 
 export const AudioScreen = () => {

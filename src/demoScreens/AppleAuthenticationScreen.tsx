@@ -1,6 +1,6 @@
 import * as AppleAuthentication from 'expo-apple-authentication'
 import { AppleAuthenticationCredential } from 'expo-apple-authentication'
-import React, { FunctionComponent, useState } from 'react'
+import { FunctionComponent, useState } from 'react'
 import { ScrollView, Text, View } from 'react-native'
 
 export const AppleAuthenticationScreen: FunctionComponent = () => {

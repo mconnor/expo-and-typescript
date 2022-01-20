@@ -1,9 +1,9 @@
 import * as Amplitude from 'expo-analytics-amplitude'
-import React, { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { Text, View } from 'react-native'
 
 export const AmplitudeScreen = () => {
-    const [isInitialized, setIsInitialized] = React.useState(false)
+    const [isInitialized, setIsInitialized] = useState(false)
 
     useEffect(() => {
         const initializeAmplitude = async () => {

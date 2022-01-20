@@ -1,5 +1,5 @@
 import * as Font from 'expo-font'
-import React, { Component } from 'react'
+import { Component } from 'react'
 import { Text, View } from 'react-native'
 
 interface Props {}

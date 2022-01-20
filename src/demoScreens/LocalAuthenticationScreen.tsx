@@ -1,5 +1,5 @@
 import * as LocalAuthentication from 'expo-local-authentication'
-import React, { Component } from 'react'
+import { Component } from 'react'
 import { Button, Text, View } from 'react-native'
 
 interface Props {}
