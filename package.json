@@ -8,6 +8,11 @@
     },
     "private": true,
     "license": "MIT",
+    "keywords": [
+        "expo",
+        "typescript",
+        "react-native"
+    ],
     "main": "node_modules/expo/AppEntry.js",
     "scripts": {
         "clear": "./scripts/clear.sh",
