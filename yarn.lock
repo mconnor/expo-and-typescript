@@ -4665,7 +4665,7 @@ __metadata:
     babel-preset-expo: 9.0.2
     eslint: ^7.32.0
     eslint-config-universe: ^10.0.0
-    expo: ^44.0.0
+    expo: ^44.0.5
     expo-analytics-amplitude: ~11.1.0
     expo-apple-authentication: ~4.1.0
     expo-asset: ~8.4.6
@@ -4901,7 +4901,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo@npm:^44.0.0":
+"expo@npm:^44.0.5":
   version: 44.0.5
   resolution: "expo@npm:44.0.5"
   dependencies:
