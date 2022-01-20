@@ -78,7 +78,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.12.9":
+"@babel/core@npm:^7.16.10":
   version: 7.16.10
   resolution: "@babel/core@npm:7.16.10"
   dependencies:
@@ -4655,7 +4655,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "expo-and-typescript@workspace:."
   dependencies:
-    "@babel/core": ^7.12.9
+    "@babel/core": ^7.16.10
     "@react-navigation/native": ^6.0.6
     "@react-navigation/stack": ^6.0.11
     "@types/react": ~17.0.21
