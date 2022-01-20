@@ -6,3 +6,7 @@ yarn
 watchman watch-del-all
 rm -fr $TMPDIR/haste-map-*
 rm -rf $TMPDIR/metro-cache
+echo " - Start to remove generated project folders"
+rm -rf build
+rm -rf dist
+rm -rf coverage
